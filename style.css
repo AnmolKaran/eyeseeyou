@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #0a03012b;
+  background-color: #d8cece;
+  padding: 5%;
+  font-size:10em;
+}
+
+img {
+  border: 2px solid black;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+
+}
+
+p {
+  color: #483D8B;
+  margin: 0px 0px 20px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: beige;
+}
