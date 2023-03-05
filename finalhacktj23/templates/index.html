@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>A Eye</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    body {
+      background-color: #e0e5ec;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      top: -70px;
+    }
+      .card {
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 10px;
+      width: 400px;
+      text-align: center;
+    }
+    .lcontainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      top: -70px;
+      width: 100%;
+    }
+    .lcard{
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 10px;
+      width: 800px;
+      text-align: center;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px;
+      width: 95%;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li {
+      margin: 0 10px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #000;
+      padding: 10px;
+      border-radius: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      background-color: #d9d9d9;
+    }
+
+    button {
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #d9d9d9;
+    }
+    .column {
+  float: left;
+  padding: 10px;
+  }
+
+  .left {
+    width: 70%;
+    }
+  .right {
+    width: 25%;
+    padding-top: 1.05in;
+  }
+    img { 
+      display: block;
+      /* margin: auto; */
+      height: 200px;
+      width: 200px;
+      border-width: 0;
+      border-radius: 1500px;
+      box-shadow: inset 5px 5px 15px #c7c7c7,
+        inset -5px -5px 15px #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="about">About</a></li>
+      </ul>
+      <ul>
+        <li><a href="mission">Our Mission</a></li>
+        <li><a href="questions"> Start Test </a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="column left" style="background-color:#e0e5ec;">
+        <div class="container">
+          <div class="card">
+            <h1>Eye Diagnosis</h1>
+            <p>Hello there. Welcome to the Eye Diagnosis Web App. We will diagnose how nearsighted your eyes are.</p>
+    
+              <a href = "questions" > <button>Start Test</button> </a>
+            </div>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#e0e5ec;">
+        <img src="/static/images/perchek-industrie-iXspFCVXoaw-unsplash.jpg" />
+      </div>
+    </div>
+    
+    <div class="lcontainer">
+      <div class="lcard">
+        <h1>Eye Tracker</h1>
+        <p> Welcome to the eye tracker, which will implement computer vision techinques in order to determine the functionality of the movement of your eyes.</p>
+
+          <a href = "eyetracker" > <button>Begin Tracking</button> </a>
+        </div>
+    </div>
+
+    
+
+    
+
+  </header>
+
+
+</body>
+
+</html>

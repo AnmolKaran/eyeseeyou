@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Eye Diagnosis Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        background-color: #e0e5ec;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+        box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px;
+        width: 95%;
+      }
+      
+      .navbar ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .navbar li {
+        margin: 0 10px;
+      }
+      
+      .navbar a {
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+        border-radius: 20px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .navbar a:hover {
+        background-color: #d9d9d9;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="mission">Our Mission</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+        <div class="card">
+          <h1>Your Score Is:</h1>
+
+            <h2> {{data["score"]}}</h2>
+
+            <!--<button onclick="window.location.href = 'FirstPage.html';">HOME</button>-->
+  
+            
+        </div>
+    </div>
+  
+
+
+  </body>
+
+</html>

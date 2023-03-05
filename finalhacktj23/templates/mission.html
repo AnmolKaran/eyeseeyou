@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mission</title>
+	<style>
+		body {
+			background-color: #f1f1f1;
+		}
+		body {
+      background-color: #e0e5ec;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      top: -70px;
+    }
+      .card {
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 10px;
+      width: 800px;
+      text-align: center;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px;
+      width: 95%;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li {
+      margin: 0 10px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #000;
+      padding: 10px;
+      border-radius: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      background-color: #d9d9d9;
+    }
+
+    button {
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #ffffff;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #d9d9d9;
+    }
+    .column {
+  float: left;
+  padding: 10px;
+  }
+
+  .left {
+    width: 70%;
+    }
+
+  .right {
+    width: 25%;
+    padding-top: 1.3in;
+  }
+    img { 
+      display: block;
+      /* margin: auto; */
+      height: 200px;
+      width: 200px;
+      border-width: 0;
+      border-radius: 1500px;
+      box-shadow: inset 5px 5px 15px #c7c7c7,
+        inset -5px -5px 15px #ffffff;
+    }
+		.container {
+			max-width: 1350px;
+			margin: 0 auto;
+			padding: 50px 20px;
+			box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+			background-color: #f1f1f1;
+			border-radius: 30px;
+			margin-top: 50px;
+		}
+		
+		h1 {
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 30px;
+			text-shadow: 2px 2px 4px #cbced1, -2px -2px 4px #ffffff;
+			color: #565a5c;
+		}
+		
+		p {
+			font-size: 14px;
+			line-height: 1.5;
+			color: #565a5c;
+			text-shadow: 1px 1px 2px #cbced1, -1px -1px 2px #ffffff;
+			margin-bottom: 20px;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+			border-radius: 20px;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+      a {
+      	
+      		font-size: 24px;
+			line-height: 1.5;
+			color: #565a5c;
+			text-shadow: 1px 1px 2px #cbced1, -1px -1px 2px #ffffff;
+			margin-bottom: 20px;
+            text-align: center;
+
+      }
+	</style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="mission">Our Mission</a></li>
+          <li><a href="questions"> Start Test </a></li>
+        </ul>
+      </div>
+
+	<div class="container">
+		<h1>Our Mission</h1>
+		<p>In our everyday busy lives, many of us often put aside our health. It is often inconvenient for many to book appointments in the middle of our busy lives for a seemingly "little problem." However, these "little problems" can snowball into bigger problems. Solving this issue was the catalyst for us to create this application, especially as many of us in our group have also similarly ignored issues with our eye health for it to get worse. </p>
+        <p>This app seeks to solve this by having a free diagnosis of nearsightedness(aka myopia). With 80-90% of the young Asian adult population being nearsighted, and 30-40% of the US adult population being nearsighted, it is more important than ever to have resources that are accessible for diagnosing myopia. With myopia affecting many people, it is simply unfeasible for economically disadvantaged or those without health insurance to book an appointment for a seemingly "little problem."</p>
+      <p>This is where our app comes into play. Our app can detect one's nearsighted vision by utilizing Snellen's Eye Test/Chart, but scales it accordingly to fit into a computer screen. This way a person can take the test right on their screen at the comfort of their home, without scheduling a Doctor's appointment. This app even gives an estimated prescribed power of the eyes, so a person can theoretically get a prescription for their eyes. </p>
+      <p>Our next steps for our mission is to implement, machine learning and Computer Vision algorithms that can detect eye diseases with just a phone or computer camera. Eye diseases such as cataracts, glaucoma, and pink eye can be detected with a phone camera. However, limited datasets exist to create a model for this, so we plan on working to find and possibly create datasets to eventually make models for eye disease classification.
+      We also plan on using Computer Vision technology to track eye movements from just the device camera to determine if the person's eyes are functioning properly, and can move properly. This can help in diagnosing disorders like Exophoria in the eye, or more serious underlying eye diseases. </p>
+	</div>
+</body>
+</html>
